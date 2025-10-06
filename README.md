@@ -12,3 +12,7 @@ Este proyecto implementa un sistema completo de analítica para aplicaciones mó
 - **Atribución publicitaria**: Configuración correcta para campañas de Google Ads y Meta
 
 ---
+## ⚙️ Herramientas y Stack Tecnológico
+
+- **Desarrollo**:  Ionic 8 capacitor 7 (Vue JS)
+- **Medición de páginas**: VUE JS por Componentes (Vue Route)
