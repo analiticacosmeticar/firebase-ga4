@@ -6,5 +6,5 @@ pod 'Firebase/Analytics'
 
 target 'App' do
   capacitor_pods
-  # Add your Pods here
+  # Añadir tus pods aquí
 end
