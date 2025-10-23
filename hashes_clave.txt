@@ -1,0 +1,15 @@
+Asegúrate de tener lo siguiente instalado:
+
+- Java Development Kit (JDK): Contiene la herramienta keytool necesaria.
+- OpenSSL: Una biblioteca de criptografía, requerida para el comando de generación del hash.
+
+Este método utiliza el almacén de claves que generaste para firmar tu aplicación de forma oficial para la publicación.
+Abre un símbolo del sistema o una Terminal.
+Ejecuta el siguiente comando, sustituyendo los valores de ejemplo con los de tu almacén de claves:
+
+shell
+keytool -exportcert -alias <nombre_alias> -keystore <ruta_a_tu_keystore> | openssl sha1 -binary | openssl base64
+Usa el código con precaución.
+
+<nombre_alias>: El alias que asignaste a la clave de tu aplicación.
+<ruta_a_tu_keystore>: La ruta completa a tu archivo de almacén de claves (.jks o .keystore).
