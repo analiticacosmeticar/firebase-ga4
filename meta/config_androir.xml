@@ -1,0 +1,31 @@
+<!-- En android/app/src/main/res/values/strings.xml
+Reemplaza YOUR_APP_ID con el App ID que te envíen-->
+<resources>
+    <!-- ... otras strings ... -->
+    
+    <!-- Facebook Configuration -->
+    <string name="facebook_app_id">YOUR_APP_ID</string>
+    <string name="fb_login_protocol_scheme">fbYOUR_APP_ID</string>
+    <string name="facebook_client_token">YOUR_CLIENT_TOKEN</string>
+</resources>
+
+
+<!-- Editar android/app/src/main/AndroidManifest.xml-->
+<application>
+    <!-- ... otros elementos ... -->
+    
+    <!-- Facebook Configuration -->
+    <meta-data 
+        android:name="com.facebook.sdk.ApplicationId" 
+        android:value="@string/facebook_app_id"/>
+    
+    <meta-data 
+        android:name="com.facebook.sdk.ClientToken" 
+        android:value="@string/facebook_client_token"/>
+    
+    <!-- Facebook Activity -->
+    <activity 
+        android:name="com.facebook.FacebookActivity"
+        android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+        android:label="@string/app_name" />
+</application>
