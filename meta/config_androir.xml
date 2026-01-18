@@ -1,5 +1,4 @@
-<!-- En android/app/src/main/res/values/strings.xml
-Reemplaza YOUR_APP_ID con el App ID que te envíen-->
+<!-- Reemplaza YOUR_APP_ID con el App ID que te envíen-->
 <resources>
     <!-- ... otras strings ... -->
     
