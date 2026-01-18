@@ -1,0 +1,5 @@
+# Plugin de Capacitor para Facebook SDK
+npm install @capacitor-community/facebook-login
+
+# Sincronizar
+npx cap sync
