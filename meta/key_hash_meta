@@ -6,4 +6,4 @@ keytool -exportcert -alias androiddebugkey -keystore %HOMEPATH%\.android\debug.k
 
 # Password por defecto: android
 
-El administrador debe añadir este hash en Facebook Developers → Tu App → Configuración → Android → Hash de claves.
+Hash en Facebook Developers → Tu App → Configuración → Android → Hash de claves.
