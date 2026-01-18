@@ -1,0 +1,35 @@
+<!-- Facebook Configuration -->
+<key>FacebookAppID</key>
+<string>YOUR_APP_ID</string>
+
+<key>FacebookClientToken</key>
+<string>YOUR_CLIENT_TOKEN</string>
+
+<key>FacebookDisplayName</key>
+<string>Repareitor</string>
+
+<key>CFBundleURLTypes</key>
+<array>
+    <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+            <string>fbYOUR_APP_ID</string>
+        </array>
+    </dict>
+</array>
+
+<!-- App Tracking Transparency (iOS 14+) -->
+<key>NSUserTrackingUsageDescription</key>
+<string>Usamos tu información para mostrarte anuncios relevantes y medir su efectividad</string>
+
+<key>SKAdNetworkItems</key>
+<array>
+    <dict>
+        <key>SKAdNetworkIdentifier</key>
+        <string>v9wttpbfk9.skadnetwork</string>
+    </dict>
+    <dict>
+        <key>SKAdNetworkIdentifier</key>
+        <string>n38lu8286q.skadnetwork</string>
+    </dict>
+</array>
