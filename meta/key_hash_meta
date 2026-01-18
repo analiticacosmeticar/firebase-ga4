@@ -5,3 +5,5 @@ keytool -exportcert -alias androiddebugkey -keystore ~/.android/debug.keystore |
 keytool -exportcert -alias androiddebugkey -keystore %HOMEPATH%\.android\debug.keystore | openssl sha1 -binary | openssl base64
 
 # Password por defecto: android
+
+El administrador debe añadir este hash en Facebook Developers → Tu App → Configuración → Android → Hash de claves.
